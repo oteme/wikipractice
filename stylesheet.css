@@ -9,6 +9,15 @@ body{
   font-weight: 400;
   font-family: "NotoSerifJP-Black", serif;
 }
+header{
+  background-color: #262626;
+  color:#FFFFFF;
+  height:100px;
+}
+.title{
+  font-size:40px;
+  padding:20px 40px;
+}
 
 .container {
   position:relative; 
@@ -63,13 +72,18 @@ body{
   text-align:center;
   left:80%
 }
-.r{
-  left:75%
-}
-.l{
-  left:25%;
-  
-}
-.m{
-  margin:0 auto;
+
+@media(max-width:670px){
+  .p{
+    width:85%;
+    height:auto;
+    max-width: 100%;
+    margin:0 auto;
+    
+    }
+  .t{
+    width:75%;
+    margin:0 auto;
+  }
+
 }
