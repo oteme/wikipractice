@@ -74,19 +74,18 @@ header{
 }
 
 @media(max-width:670px){
-  .container {
-    display: flex;
-    flex-direction: column; /* Flexboxを使用して要素を縦並びにする */
-    align-items: center; /* 中央揃え */
+  .p{
+    width:85%;
+    height:auto;
+    max-width: 100%;
+    margin:0 auto;
+    left:50%;
+    
+    }
+  .t{
+    width:75%;
+    margin:0 auto;
+    left: 50%;
   }
 
-  .p, .t {
-    position: static; /* absolute positioningを削除 */
-    width: 85%; /* 両要素の幅を調整 */
-    margin: 0 auto; /* 中央揃え */
-  }
-
-  .t {
-    width: 75%; /* 必要に応じてtの幅を調整 */
-  }
 }
