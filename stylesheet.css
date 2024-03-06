@@ -79,13 +79,16 @@ header{
     height:auto;
     max-width: 100%;
     margin:0 auto;
+    top: 7%;
     left:50%;
     
     }
   .t{
     width:75%;
     margin:0 auto;
+    top: 60%;
     left: 50%;
+    font-size:calc(100vw / 34)*1.5 ;
   }
 
 }
