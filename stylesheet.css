@@ -88,7 +88,7 @@ header{
     margin:0 auto;
     top: 60%;
     left: 50%;
-    font-size:calc(100vw / 34)*1.5 ;
+    font-size:calc(100vw /20) ;
   }
 
 }
